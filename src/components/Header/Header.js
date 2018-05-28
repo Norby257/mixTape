@@ -1,9 +1,28 @@
 import React, { Component} from 'react';
 
-const Header = props => (
-    <div className="page-header">
-    <h1>Welcome to mix-tape <small>Travel Playlist solution</small></h1>
-  </div>
-)
+class Header extends Component  {
+  //  constructor methods go here {
+
+
+  // }
+
+  render() {
+    return (
+      <header className="header">
+            <i class="fa fa-spotify"></i>Spotify
+         <h2>Welcome to mix-tape <small>Travel Playlist solution</small></h2>
+         </header>
+
+    )
+  }
+}
+// const Header = props => (
+//     <header className="header">
+//       <i class="fa fa-spotify"></i>Spotify
+//     <h2>Welcome to mix-tape <small>Travel Playlist solution</small></h2>
+
+//   </header>
+  
+// );
 
 export default Header;
