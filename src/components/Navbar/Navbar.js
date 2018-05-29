@@ -31,8 +31,10 @@ class Navbar extends Component {
               </div>
     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul className="nav navbar-nav">
-        <li className="active"><a href="#">Sign Up <span className="sr-only">(current)</span></a></li>
-        <li className="active"><a href="#">View Sample Playlist <span className="sr-only">(current)</span></a></li>
+        <li className="active"><a href="#">Sign Up/Log In <span className="sr-only">(current)</span></a></li>
+        <li className="active"><a href="#"> Team <span className="sr-only">(current)</span></a></li>
+        <li className="active"><a href="#"> Home <span className="sr-only">(current)</span></a></li>
+
         <li><a href="#">Login</a></li>
       </ul>
       </div>
