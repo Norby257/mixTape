@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
+import Header from './components/Header';
+import Navbar from './components/Navbar'
 import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
+        <Navbar />
+      <Header />
+      {/* <div className="App">
         <p className="App-intro">
           Components go here 
         </p>
-        <Footer />
-      </div>
+      </div> */}
+      
+      <Footer />
+    </div>
     );
   }
 }
